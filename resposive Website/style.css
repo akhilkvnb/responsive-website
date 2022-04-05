@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+  
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: white
+    
+}
+.blue-head{
+    background-color: #165dba;
+    text-align: center;
+    
+    height: 3em;
+    
+    
+}
+.blue-head a{
+    color:white;
+    
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.blue-head :hover{
+    color: lightgray;
+    text-decoration: underline;
+
+}
+
+
+.right-head button{
+    background-color: #165dba;
+    
+}
+.txt{
+    text-align: center;
+
+}.shop{
+    text-decoration: none;
+    margin-left: 1em;
+    color: #165dba;
+}
+.btn{
+    background-color: #165dba;
+    border-radius: 0%;
+}
+.a-link{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+
+    cursor: pointer;
+}
+.btn-print {
+    display: flex;
+    justify-content: center;
+}
